@@ -26,6 +26,7 @@
   block-size: calc(100vh - var(--bottomSize));
   min-block-size: var(--minBlockSize);
   overflow: auto;
+  inline-size: 100%;
 }
 
 .layout-bottom {
