@@ -42,3 +42,21 @@
   border-radius: 4.375rem;
   text-transform: uppercase;
 }
+
+.buttonIcon.is-secondary {
+  position: relative;
+  border: 1px solid var(--white);
+  inline-size: 2.5rem;
+  block-size: 2.5rem;
+  background: transparent;
+  border-radius: 50%;
+  cursor: pointer;
+  color: var(--gray10);
+}
+
+.buttonIcon.is-secondary .icon-play {
+  position: absolute;
+  inset-block-start: 8px;
+  inset-inline-start: 8px;
+  color: var(--white);
+}

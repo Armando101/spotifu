@@ -1,4 +1,4 @@
-.personalizedPlaylist {
+.personalizedPlaylist-hero {
   display: flex;
   flex-direction: column;
   margin: 0 auto;
@@ -7,7 +7,7 @@
   align-items: center;
 }
 
-.personalizedPlaylist h3 {
+.personalizedPlaylist-hero h3 {
   font: var(--headline1);
   color: var(--white);
   margin-block-end: 0;
@@ -17,8 +17,42 @@
 .personalizedPlaylist-info {
   font: var(--baseFont);
   color: var(--white);
+  text-align: center;
 }
 
 .personalizedPlaylist-info p {
   margin: 0;
+}
+
+.personalizedPlaylist-song {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.personalizedPlaylist-song p {
+  color: var(--white);
+}
+
+.personalizedPlaylist-title {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  color: var(--white);
+}
+.personalizedPlaylist-title p {
+  margin: 0;
+  font: var(--baseFont);
+}
+
+.personalizedPlaylist-title .icon-heart {
+  font-size: 1.125rem;
+}
+
+.personalizedPlaylist-title .is-secondary {
+  block-size: 1.5rem;
+  inline-size: 1.5rem;
+}
+
+.personalizedPlaylist-title .is-secondary .icon-play {
+  font-size: 8px;
 }

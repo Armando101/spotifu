@@ -12,6 +12,7 @@ buildForYou.addEventListener("click", () => {
 
 home.addEventListener("click", () => {
   landing.style.display = "block";
+  buildForYouSection.style.display = "none";
 });
 
 landing.style.display = "none";
