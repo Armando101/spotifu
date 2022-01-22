@@ -62,3 +62,12 @@
   inset-inline-start: 40%;
   color: var(--white);
 }
+
+.buttonIcon.is-primary.is-likedPage {
+  inline-size: 3.5rem;
+  block-size: 3.5rem;
+}
+
+.buttonIcon.is-primary.is-likedPage i {
+  font-size: 1rem;
+}

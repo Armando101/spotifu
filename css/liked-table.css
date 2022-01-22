@@ -1,5 +1,6 @@
 .likedTable {
   inline-size: 100%;
+  margin-block-start: 1rem;
 }
 
 .likedTable thead {
