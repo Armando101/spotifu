@@ -31,7 +31,6 @@ buildForYou.addEventListener("click", () => {
 home.addEventListener("click", () => {
   resetLayout();
   landing.style.display = "block";
-  layoutMain.classList.remove("is-showBackImage");
 });
 
 function resetLayout() {
@@ -40,4 +39,7 @@ function resetLayout() {
   imageCover.style.display = "none";
   recentlyListenedSection.style.display = "none";
   likedSection.style.display = "none";
+  layoutMain.classList.remove("is-showBackImage");
 }
+resetLayout();
+landing.style.display = "block";
