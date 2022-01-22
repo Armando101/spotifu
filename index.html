@@ -141,7 +141,10 @@
           </div>
         </div>
 
-        <div class="layout-main">
+        <div id="layout-main" class="layout-main">
+          <div id="image-cover" class="image-cover">
+            <img src="./images/img-1.jpg" alt="Cover" />
+          </div>
           <div class="page">
             <div class="sticky">
               <div class="page-block">
@@ -892,6 +895,13 @@
                 </section>
 
                 <section class="personalizedPlaylist-songList">
+                  <div class="personalizedPlaylist-filter">
+                    <form class="search" role="search" aria-label="Filtrar">
+                      <i class="icon-search" aria-hidden="true"></i>
+                      <input type="search" placeholder="Filtrar" />
+                    </form>
+                  </div>
+
                   <table class="personalizedPlaylist-table">
                     <thead>
                       <tr>
