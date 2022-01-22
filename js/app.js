@@ -4,10 +4,17 @@ const layoutMain = document.getElementById("layout-main");
 const buildForYouSection = document.getElementById("buildForYouSection");
 const recentlyListened = document.getElementById("recently-listened");
 const recentlyListenedSection = document.getElementById("recentlyListened");
+const liked = document.getElementById("liked");
+const likedSection = document.getElementById("likedSection");
 
 const home = document.getElementById("home");
 
 const landing = document.getElementById("landing");
+
+liked.addEventListener("click", () => {
+  resetLayout();
+  likedSection.style.display = "block";
+});
 
 recentlyListened.addEventListener("click", () => {
   resetLayout();
@@ -32,4 +39,5 @@ function resetLayout() {
   buildForYouSection.style.display = "none";
   imageCover.style.display = "none";
   recentlyListenedSection.style.display = "none";
+  likedSection.style.display = "none";
 }
