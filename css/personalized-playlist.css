@@ -33,19 +33,15 @@
   color: var(--white);
 }
 
-.personalizedPlaylist-title {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  color: var(--white);
-}
 .personalizedPlaylist-title p {
   margin: 0;
   font: var(--baseFont);
 }
 
-.personalizedPlaylist-title .icon-heart {
+.personalizedPlaylist-table .icon-heart {
   font-size: 1.125rem;
+  vertical-align: middle;
+  color: var(--white);
 }
 
 .personalizedPlaylist-title .is-secondary {
@@ -55,4 +51,38 @@
 
 .personalizedPlaylist-title .is-secondary .icon-play {
   font-size: 8px;
+}
+
+.personalizedPlaylist-table {
+  inline-size: 100%;
+  margin-block-start: 1rem;
+  --max-inline-size-icons: 2.75rem;
+  --max-inline-size-calendar: 5.625rem;
+}
+
+.personalizedPlaylist-table tr {
+  display: flex;
+  line-height: 2.75rem;
+}
+.personalizedPlaylist-table tr td,
+.personalizedPlaylist-table tr th {
+  flex: 1;
+}
+
+.personalizedPlaylist-table tr th {
+  text-align: start;
+  text-transform: uppercase;
+  font: var(--subtitle2);
+}
+
+.personalizedPlaylist-table .is-icon {
+  max-inline-size: var(--max-inline-size-icons);
+}
+
+.personalizedPlaylist-table .is-calendar {
+  max-inline-size: var(--max-inline-size-calendar);
+}
+
+.personalizedPlaylist-table .is-clock {
+  max-inline-size: var(--max-inline-size-calendar);
 }
