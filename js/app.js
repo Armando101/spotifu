@@ -41,3 +41,5 @@ function resetLayout() {
   recentlyListenedSection.style.display = "none";
   likedSection.style.display = "none";
 }
+resetLayout();
+likedSection.style.display = "block";
