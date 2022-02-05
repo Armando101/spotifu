@@ -8,9 +8,15 @@
 .image-cover img {
   aspect-ratio: 16/9;
   inline-size: 100%;
+}
+
+.image-cover::after {
+  content: "";
+  position: absolute;
+  inset: 0;
   background: linear-gradient(
     181.17deg,
     rgba(47, 47, 47, 0) -35.3%,
-    #171717 66.2%
+    #121212 90%
   );
 }
